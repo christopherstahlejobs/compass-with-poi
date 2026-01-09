@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fef7e40e1f02484eb512a4d08e10d18, type: 3}
+  m_Name: Default CompassPOIConfig
+  m_EditorClassIdentifier: Assembly-CSharp::CompassPOIConfig
+  _maxDisplayDistance: 50
+  _elevationThreshold: 2
+  _distanceDecimalPlaces: 0
+  _positionChangeThreshold: 2
+  _iconPositionThreshold: 10
+  _minIconSpacing: 155
+  _overflowYOffset: -105
+  _rowMappings:
+  - PoiType: 15
+    Row: 1
+  - PoiType: 16
+    Row: 0
